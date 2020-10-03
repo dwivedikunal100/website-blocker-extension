@@ -1,0 +1,17 @@
+{
+    "name": "Website blocking",
+    "version": "1.0",
+    "description": "A website blocking extension for digital decluttering",
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": true
+    },
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "*://*/*"
+    ],
+    "manifest_version": 2
+}
